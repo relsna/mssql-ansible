@@ -12,3 +12,4 @@
       chocolatey.chocolatey.win_chocolatey:
         name: "{{ packages }}"
         state: latest
+        force: true
