@@ -1,6 +1,6 @@
 # The latest powershell gives us more flexiablity to use Windows DSC items
 - name: Windows | Install Powershell 5.0
-  win_chocolatey:
+  chocolatey.chocolatey.win_chocolatey:
     name: "powershell"
   register: check_powershell5
   become: yes
