@@ -11,5 +11,5 @@
     - name: install packages
       chocolatey.chocolatey.win_chocolatey:
         name: "{{ packages }}"
-        state: absent
+        state: present
         force: true
