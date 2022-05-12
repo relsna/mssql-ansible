@@ -1,0 +1,7 @@
+---
+- name: win_ping test
+  hosts: mssql
+  tasks:
+    - name: test connection
+      #ansible.windows.win_ping:
+      win_ping:
