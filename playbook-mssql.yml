@@ -1,0 +1,6 @@
+- name: SQL Server
+  hosts: sql_server
+  tags: mssql
+
+  roles:
+  - { role: mssql }
